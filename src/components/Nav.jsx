@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import IgLogo from "../asset/Ig.png";
 // import MenuIcon from "@mui/icons-material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";

@@ -1,7 +1,7 @@
 import getPhotoUrl from "get-photo-url";
 import { db } from "../dexie";
 import { useLiveQuery } from "dexie-react-hooks";
-import { Rings, Bars, BallTriangle } from "react-loading-icons";
+import { Bars } from "react-loading-icons";
 
 const Gallery = () => {
   const allPhotos = useLiveQuery(() => db.gallery.toArray(), []);
